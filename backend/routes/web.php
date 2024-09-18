@@ -8,6 +8,6 @@ Route::get('/', function () {
         'version' => '1.0.0',
         'author'  => 'Admin',
         'email'   => 'admin@openmis.top',
-        'website' => 'https://deam.com.kh',
+        'website' => 'www.deam.com.kh',
     ];
 });
