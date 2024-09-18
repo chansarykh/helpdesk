@@ -5,7 +5,7 @@
     <div class="text-center">
       <a
         v-tooltip.bottom="'Github Repository'"
-        href="https://github.com/omaghd/otickets"
+        href="https://github.com/chansarykh/otickets"
         target="_blank"
         class="inline-block rounded-full bg-[#333] p-2 text-center text-white"
       >
