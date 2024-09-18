@@ -1,6 +1,6 @@
 # OTickets - Ticket Support System
 
-OTickets is a ticket support web application that simplifies the management of support tickets and provides a platform
+Services Desk is a ticket support web application that simplifies the management of support tickets and provides a platform
 to handle frequently asked questions (FAQs) to enhance visitor and client experience.
 
 If you found this repo helpful, please give it a (⭐). Thank you!
