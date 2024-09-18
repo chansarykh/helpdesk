@@ -21,9 +21,9 @@ class DatabaseSeeder extends Seeder
         User::factory()
             ->admin()
             ->create([
-                'name'     => 'OmaghD',
-                'email'    => 'contact@omaghd.com',
-                'password' => 'OTickets@00'
+                'name'     => 'Admin',
+                'email'    => 'admin@openmis.top',
+                'password' => 'Welcome1'
             ]);
 
         $mainAgentCreated = false;
@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
                 $department->agents()->save(
                     User::factory()
                         ->agent()
-                        ->create(['email' => $mainAgentCreated ? fake()->unique()->safeEmail() : 'agent@omaghd.com'])
+                        ->create(['email' => $mainAgentCreated ? fake()->unique()->safeEmail() : 'agent01@openmis.top'])
                 );
 
                 $mainAgentCreated = true;

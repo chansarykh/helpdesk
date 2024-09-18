@@ -6,8 +6,8 @@ Route::get('/', function () {
     return [
         'name'    => config('app.name'),
         'version' => '1.0.0',
-        'author'  => 'OmaghD',
-        'email'   => 'contact@omaghd.com',
-        'website' => 'https://omaghd.com',
+        'author'  => 'Admin',
+        'email'   => 'admin@openmis.top',
+        'website' => 'https://deam.com.kh',
     ];
 });
